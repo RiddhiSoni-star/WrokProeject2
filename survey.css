@@ -1,0 +1,83 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-image: url("https://thumbs.dreamstime.com/b/soft-gradient-light-color-background-transitioning-pink-to-pale-sky-blue-gentle-transitions-serene-design-337588346.jpg");
+    background-color: #1b1b32;
+    color: black;
+    background-position: center;
+    text-align: center;
+    
+
+    font-family: Tahoma;
+    font-size: 20px; 
+  }
+  #logo{
+    font-size: 40px;
+    font-style: italic;
+  }
+  h1,h4,p{
+    margin: 1.3em auto;
+    text-align: center;
+    font-size: 30px;
+    
+       
+   }
+   h1:hover, h4:hover, p:hover{
+  color:purple;
+   }
+    
+   fieldset{
+      border:none;
+      padding: 2rem 0;
+   }
+    form{
+        width:60vw;
+        max-width:500px;
+        min-width:300px;
+        margin:0 auto;
+        padding-bottom:2em;
+    }
+  label
+  {
+      display:block;
+      margin:0.5rem 0;
+  }
+   
+  input,textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 3em;
+  }
+  input, textarea {
+      background-color:white;
+      border: 1px solid #0a0a23;
+      color: black;
+      text-align: center;
+    }
+  #choice{
+  width: unset;    
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  }
+  #feedback{
+      width:500px;
+      height:100px;
+      text-align: center;
+       
+       
+      background-color: white;
+      color:black;
+  }
+  button{
+      text-align: center;
+      /* margin-left: 650px; */
+      margin-top:40px;
+      height:40px;
+      width: 90px;
+  }
+  button:hover{
+      font-size: 20px;
+      background-position: 3px;
+  }
+ 
