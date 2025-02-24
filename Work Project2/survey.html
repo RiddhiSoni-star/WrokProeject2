@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <h1>The Fashion Store
+        <h4>Aap ka apna store</h4>
+    </h1>
+    <p>The Survey Form </p> 
+
+    <p>Thanking you for spending your quality time here.&#128512;</p>
+<fieldset>
+    <form>
+        <label id="name-label"> Enter your first name: 
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+        </label>
+<br><br>
+        <label id="email-label">Enter your email: 
+            <input type="email" name="email" id="email" placeholder="example123@gmail.com" required>
+        </label>
+<br><br>
+<label id="password-label">Enter your password: 
+    <input type="password" name="pass" id="pass" placeholder="Enter password">
+</label>
+<br><br>
+ 
+<label>
+Enter your age: <input type="number" name="age" id="age" placeholder=" Enter Age"> </label>
+      
+
+    <br><br>
+    <label id="referrer">Wil you refer this to your friends too:
+    
+     <select id="referrer">
+     <option>Yes</option>
+     <option>No</option>
+    </select>
+</label>
+
+<br><br>
+<label id ="choice">What you like most about the store:  <br><br>
+    <input type="checkbox" name="choice1" id="choice">Discount on the product.. <br>
+    <input type="checkbox" name="choice2" id="choice">Sale on every product..<br>
+    <input type="checkbox" name="choice3" id="choice">Quality of the product.. <br>
+    <input type="checkbox" name="choice4" id="choice">Delivery Timeline..<br>
+</label>
+<br><br>
+    </form>
+    <footer> 
+<textarea id="feedback" placeholder=" Give your valuable feedback...">My Feedback is: </textarea>
+    <br>
+    <button> <a href="#">Submit</a></button> 
+</footer>
+</fieldset>
+ 
+<script src="survey.js"></script>
+</body>
+</html>
